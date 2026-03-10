@@ -22,7 +22,7 @@
   </issueManagement>
   <ciManagement>
     <system>travis</system>
-    <url>https://travis-ci.org/jiaqi/flixport</url>
+    <url>https://github.com/jiaqi/flixport/actions</url>
   </ciManagement>
   <dependencies>
     <dependency>
@@ -137,10 +137,16 @@
     </plugins>
   </build>
   <distributionManagement>
-    <site>
-      <id>cyclopsgroup.server</id>
-      <url>s3://${dist.bucketName}/projects/flixport</url>
-    </site>
+    <snapshotRepository>
+      <id>github</id>
+      <name>GitHub jiaqi Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/jiaqi/jmxterm</url>
+    </snapshotRepository>
+    <repository>
+      <id>github</id>
+      <name>GitHub jiaqi Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/jiaqi/jmxterm</url>
+    </repository>
   </distributionManagement>
   <properties>
     <com.google.flogger.version>0.3.1</com.google.flogger.version>
