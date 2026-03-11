@@ -146,12 +146,12 @@
     <snapshotRepository>
       <id>github</id>
       <name>GitHub jiaqi Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/jiaqi/jmxterm</url>
+      <url>https://maven.pkg.github.com/jiaqi/flixport</url>
     </snapshotRepository>
     <repository>
       <id>github</id>
       <name>GitHub jiaqi Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/jiaqi/jmxterm</url>
+      <url>https://maven.pkg.github.com/jiaqi/flixport</url>
     </repository>
   </distributionManagement>
   <properties>
