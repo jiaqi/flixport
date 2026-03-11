@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.cyclopsgroup</groupId>
     <artifactId>cyclopsgroup-java-parent</artifactId>
-    <version>0.7.2</version>
+    <version>0.7.3</version>
   </parent>
   <artifactId>flixport</artifactId>
   <packaging>jar</packaging>
@@ -22,7 +22,7 @@
   </issueManagement>
   <ciManagement>
     <system>travis</system>
-    <url>https://travis-ci.org/jiaqi/flixport</url>
+    <url>https://github.com/jiaqi/flixport/actions</url>
   </ciManagement>
   <dependencies>
     <dependency>
@@ -88,13 +88,19 @@
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
-      <version>2.9.0</version>
+      <version>5.12.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-core</artifactId>
-      <version>2.1</version>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-inline</artifactId>
+      <version>4.11.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <version>5.12.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -137,10 +143,16 @@
     </plugins>
   </build>
   <distributionManagement>
-    <site>
-      <id>cyclopsgroup.server</id>
-      <url>s3://${dist.bucketName}/projects/flixport</url>
-    </site>
+    <snapshotRepository>
+      <id>github</id>
+      <name>GitHub jiaqi Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/jiaqi/jmxterm</url>
+    </snapshotRepository>
+    <repository>
+      <id>github</id>
+      <name>GitHub jiaqi Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/jiaqi/jmxterm</url>
+    </repository>
   </distributionManagement>
   <properties>
     <com.google.flogger.version>0.3.1</com.google.flogger.version>

@@ -5,5 +5,5 @@ on:
 
 jobs:
   verify:
-    uses: cyclopsgroup/cyclopsgroup/.github/workflows/maven-verify.yml@main
+    uses: jiaqi/cyclopsgroup/.github/workflows/maven-verify.yml@main
 

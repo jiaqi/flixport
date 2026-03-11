@@ -1,4 +1,6 @@
-.*
 *.log
 dependency-reduced-pom.xml
 target
+*.tmp
+*~
+.vscode

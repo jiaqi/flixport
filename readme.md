@@ -45,8 +45,6 @@ me@me:~/Downloads$ java -jar flixport-0.0.1.jar -h
 Goto https://www.flickr.com/services/api, click "API keys" and create a key
 if you haven't done so.
 
-Find details in http://docs.cyclopsgroup.org/flixport
-
 ## Configure Flixport
 
 Flixport command line is mostly configured in `$HOME/.flixport/cli.properties`
