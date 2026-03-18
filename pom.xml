@@ -143,6 +143,6 @@
   </distributionManagement>
   <properties>
     <com.google.flogger.version>0.9</com.google.flogger.version>
-    <com.amazonaws.sdk.version>1.12.261</com.amazonaws.sdk.version>
+    <com.amazonaws.sdk.version>1.12.797</com.amazonaws.sdk.version>
   </properties>
 </project>
