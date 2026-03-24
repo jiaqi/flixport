@@ -1,4 +1,4 @@
-name: maven_publish
+name: publish
 
 on:
   push:
